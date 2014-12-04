@@ -12,11 +12,18 @@ setOnLoadPicture(function() {
 		w = comp[i].width;
 		h = comp[i].height;
 		ctx.fillRect(x, y + h * 0.3, comp[i].width, h * 0.2);
+
 	}
 
-	var msg1 = $("mag1");
-	var msg2 = $("mag2")
+	var msg1 = $("#msg1").val();
+	var msg2 = $("#msg2").val();
+	console.log(msg1);
+	console.log(msg2);
 
+	var w = 640;
+	var h = 480;
+	drawText(msg1, w * 0.3, h * 0.8, 20);
+	drawText(msg2, w * 0.8, h * 0.2, 20);
 	function drawText(text, x, y, fontsize) {
 		var array = text.split("\n");
 		var wh = 35;

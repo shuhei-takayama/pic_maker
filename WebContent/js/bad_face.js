@@ -5,7 +5,7 @@ function lieMaker(ctx, img, comp) {
 		y = comp[i].y;
 		w = comp[i].width;
 		h = comp[i].height;
-		ctx.drawImage(img, x, y + h * 0.3, w, h * 0.2, x, y + h * 0.26, w, h * 0.3);
+		ctx.drawImage(img, x, y + h * 0.3, w, h * 0.2, x, y + h * 0.26, w, h * 0.31);
 	}
 }
 

@@ -79,6 +79,7 @@ function loadPicture(picURL) {
 
 }
 
+
 function getParameter() {
 	console.log(parameter);
 	return parameter;

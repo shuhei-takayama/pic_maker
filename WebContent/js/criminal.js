@@ -14,6 +14,9 @@ setOnLoadPicture(function() {
 		ctx.fillRect(x, y + h * 0.3, comp[i].width, h * 0.2);
 	}
 
+	var msg1 = $("mag1");
+	var msg2 = $("mag2")
+
 	function drawText(text, x, y, fontsize) {
 		var array = text.split("\n");
 		var wh = 35;
@@ -27,4 +30,5 @@ setOnLoadPicture(function() {
 		}
 
 	}
+
 });

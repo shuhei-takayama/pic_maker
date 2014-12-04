@@ -12,7 +12,6 @@ function lieMaker(ctx, img, comp) {
 var startX=0;
 var startY=0;
 var mousedown=false;
-var test = 0;
 
 setOnLoadPicture(function() {
 	var obj = getParameter();

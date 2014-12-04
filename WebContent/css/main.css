@@ -1,0 +1,26 @@
+h1{
+ position:relative;
+ margin:0 -10px;
+ padding:10px 20px;
+ width:430px;
+ background:#88ccef;
+ box-shadow:0 3px 3px 0 rgba(0,0,0,0.1);
+}
+h1:before{
+ content:" ";
+ position:absolute;
+ top:-20px;
+ left:0;
+ width:450px;
+ height:0;
+ border-width:10px;
+ border-style:solid;
+ border-color:transparent;
+ border-bottom-color:#91daff;
+}
+
+#container {
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}

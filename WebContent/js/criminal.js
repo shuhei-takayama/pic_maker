@@ -22,8 +22,8 @@ setOnLoadPicture(function() {
 
 	var w = 640;
 	var h = 480;
-	drawText(msg1, w * 0.3, h * 0.8, 20);
-	drawText(msg2, w * 0.8, h * 0.2, 20);
+	drawText(msg1, w*0.5, h * 0.9, 30);
+	drawText(msg2, w * 0.6, h * 0.2, 30);
 	function drawText(text, x, y, fontsize) {
 		var array = text.split("\n");
 		var wh = 35;

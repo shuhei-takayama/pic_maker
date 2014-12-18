@@ -1,5 +1,5 @@
 <serviceGroup>
-	<service name="TinyMessageService" scope="application">
+	<service name="face_funny" scope="application">
 		<description></description>
 		<messageReceivers>
 			<messageReceiver mep="http://www.w3.org/2004/08/wsdl/in-only" class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />

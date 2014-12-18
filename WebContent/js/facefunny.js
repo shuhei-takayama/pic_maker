@@ -1,4 +1,5 @@
-var endpoint = 'http://localhost:8080/axis2/services/face_funny';
+//var endpoint = 'http://localhost:8080/axis2/services/face_funny';
+var endpoint = '/axis2/services/face_funny';
 var parameter = null;
 function isHankaku(str) {
 	return str.match(/^(\w| |'|,|&)+$/);

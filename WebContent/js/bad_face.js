@@ -1,4 +1,8 @@
 function lieMaker(ctx, img, comp) {
+
+
+	//読み込みたい画像のパス
+
 	for (var i = 0; i < comp.length; i++) {
 		var x, y, h, w;
 		x = comp[i].x;
@@ -9,9 +13,9 @@ function lieMaker(ctx, img, comp) {
 	}
 }
 
-var startX=0;
-var startY=0;
-var mousedown=false;
+var startX = 0;
+var startY = 0;
+var mousedown = false;
 
 setOnLoadPicture(function() {
 	var obj = getParameter();

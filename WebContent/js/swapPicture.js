@@ -15,17 +15,14 @@ function swap(ctx, img, comp, canvas) {
 		mh = mainComp.height;
 
 		ctx.beginPath();
-		ctx.arc(x+(w/2), y+(h/2), w/2, 0, Math.PI * 2, false);
+		ctx.arc(x + (w / 2), y + (h / 2), w / 2, 0, Math.PI * 2, false);
 		ctx.clip();
-
 		ctx.beginPath();
-		/* 画像を指定 */
 
 		ctx.drawImage(img, mx, my, mw, mh, x, y, w, h);
-		console.log("gooood"+comp.length);
+		console.log("gooood" + comp.length);
 	}
 }
-
 
 setOnLoadPicture(function() {
 	var obj = getParameter();
